@@ -1,0 +1,6 @@
+<%= I18n.t('passwordless.mailer.magic_link', link: @magic_link) %>
+
+You might have tried to log in from this devise:
+<%= @session.user_agent %>
+
+Regards, your app team.
